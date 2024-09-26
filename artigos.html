@@ -10,13 +10,14 @@
     <title>Meu Portfólio</title>
 </head>
 <body style="min-width:372px;">
+<head>
     <nav class="navbar navbar-dark bg-light border-bottom shadow-sm animate__animated animate__fadeInDown">
         <div class="container">
             <a class="navbar-brand small" href="index.html"><img src="./img/logo-blue.png" style="width: 70px;" alt=""></a>
             <div class="ms-auto">
-            <a href="#" class="bi-github custom-text-info me-2" style="font-size: 25px;"></a>
-            <a href="#" class="bi-linkedin custom-text-info me-2" style="font-size: 25px;"></a>
-            <a href="#" class="bi-instagram custom-text-info me-2" style="font-size: 25px;"></a>
+            <a href="https://github.com/felipediogo0" class="bi-github custom-text-info me-2" style="font-size: 25px;"></a>
+            <a href="https://www.linkedin.com/in/felipe-diogo-56144034/" class="bi-linkedin custom-text-info me-2" style="font-size: 25px;"></a>
+            <a href="https://www.instagram.com/dev.felipediogo/" class="bi-instagram custom-text-info me-2" style="font-size: 25px;"></a>
             </div>
             <button class="btn custom-btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                 <span class="navbar-toggler-icon"></span></button>
@@ -26,7 +27,14 @@
             <a href="projetos.html" class="text-decoration-none custom-text-info me-4">Projetos</a>
             <a href="artigos.html" class="text-decoration-none custom-text-info">Artigos</a>
         </div> 
-    </nav>        
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none custom-text-info">Página inicial</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Artigos</li>
+        </ol>
+      </nav>        
+</head>
 <section> <!-- Offcanva -->
     <div class="offcanvas offcanvas-start" style="width: 300px;" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header bg-light custom-text-info">
@@ -91,7 +99,7 @@
                 <div class="col-12 col-lg-4 custom-text-info">&copy;Dev.FelipeDiogo</div>
                 <div class="col-6 col-lg-4">
                     <a href="#" class="custom-text-info text-decoration-none">
-                        <i class="bi bi-mailbox2-flag ms-0"></i>felipediogo@live.com</a>
+                        <i class="bi bi-mailbox2-flag ms-0 me-2"></i>felipediogo@live.com</a>
                 </div>        
                 <div class="col-6 col-lg-4">        
                     <a href="#" class="custom-text-info text-decoration-none me-0">

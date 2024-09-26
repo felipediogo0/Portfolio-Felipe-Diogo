@@ -1,0 +1,16 @@
+.custom-text-info{
+    color: #0f5588;
+}
+
+.custom-btn-info{
+    background: #0f5588;
+}
+
+.half-circle {
+    width: 100%;
+    height: 100%;
+    background-color: #3498db; /* Cor de fundo */
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    clip-path: ellipse(100% 50% at 50% 0%);
+}
