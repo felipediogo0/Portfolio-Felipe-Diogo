@@ -1,6 +1,7 @@
 .custom-bkg-color{
     background-color: #0f5588;
 }
+
 .custom-text-info{
     color: #0f5588;
 }
@@ -19,4 +20,8 @@
 
 .custom-text-success{
     color: #28A745;
+}
+
+.custom-bkg-gradient{
+    background: linear-gradient(to bottom,#0f5588,#F8F9FA);
 }
