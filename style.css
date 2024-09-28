@@ -25,3 +25,11 @@
 .custom-bkg-gradient{
     background: linear-gradient(to bottom,#0f5588,#F8F9FA);
 }
+
+.custom-bkg-gradient-white{
+    background: linear-gradient(to bottom,#F8F9FA,#ffffff);
+}
+
+.custom-bkg-gradient-gray{
+    background: linear-gradient(to bottom,#ffff,#0f5588);
+}
