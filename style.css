@@ -33,3 +33,11 @@
 .custom-bkg-gradient-gray{
     background: linear-gradient(to bottom,#ffff,#0f5588);
 }
+
+.card-art {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* Define o número de linhas que você quer exibir */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+    height: 150px; /* Altura fixa para os cards */
