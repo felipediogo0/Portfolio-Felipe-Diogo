@@ -8,6 +8,26 @@
 
 .custom-btn-info{
     background: #0f5588;
+    color: #F8F9FA;
+    border-color: #F8F9FA;
+}
+
+.custom-btn-info:hover{
+    background: #F8F9FA;
+    color: #0f5588;
+    border-color: #0f5588;
+}
+
+.custom-btn-outline-info{
+    background: #F8F9FA;
+    color: #0f5588;
+    border-color: #0f5588;
+}
+
+.custom-btn-outline-info:hover {
+    background: #0f5588;
+    color: #F8F9FA;
+    border-color: #0f5588;
 }
 
 .custom-text-secondary{
@@ -40,4 +60,6 @@
     -webkit-line-clamp: 6; /* Define o número de linhas que você quer exibir */
     overflow: hidden;
     text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
-    height: 150px; /* Altura fixa para os cards */
+    height: 140px; /* Altura fixa para os cards */
+
+

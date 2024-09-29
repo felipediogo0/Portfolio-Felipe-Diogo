@@ -1,0 +1,5 @@
+.teste-img {
+    height: 500px; /* Defina a altura desejada */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    object-position: center; /* Centraliza a imagem */
+}
