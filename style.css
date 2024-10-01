@@ -61,5 +61,9 @@
     overflow: hidden;
     text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
     height: 140px; /* Altura fixa para os cards */
+}
 
+.modal-body h1, h2, h3{
+    color: #0f5588;
+}
 
