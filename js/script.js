@@ -1,3 +1,3 @@
 $(function(){
-    $("#menu-canvas").load("../pages/index.html #canva-menu")
+    $("#menu-canvas").load("../index.html #canva-menu")
 })
