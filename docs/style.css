@@ -1,0 +1,69 @@
+.custom-bkg-color{
+    background-color: #0f5588;
+}
+
+.custom-text-info{
+    color: #0f5588;
+}
+
+.custom-btn-info{
+    background: #0f5588;
+    color: #F8F9FA;
+    border-color: #F8F9FA;
+}
+
+.custom-btn-info:hover {
+    background: #F8F9FA;
+    color: #0f5588;
+    border-color: #0f5588;
+}
+
+.custom-btn-outline-info{
+    background: #F8F9FA;
+    color: #0f5588;
+    border-color: #0f5588;
+}
+
+.custom-btn-outline-info:hover {
+    background: #0f5588;
+    color: #F8F9FA;
+    border-color: #0f5588;
+}
+
+.custom-text-secondary{
+    color: #333333;
+}
+
+.custom-text-primary{
+    color: #1C6E9D;
+}
+
+.custom-text-success{
+    color: #28A745;
+}
+
+.custom-bkg-gradient{
+    background: linear-gradient(to bottom,#0f5588,#F8F9FA);
+}
+
+.custom-bkg-gradient-white{
+    background: linear-gradient(to bottom,#F8F9FA,#ffffff);
+}
+
+.custom-bkg-gradient-gray{
+    background: linear-gradient(to bottom,#F8F9FA,#0f5588);
+}
+
+.card-art {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* Define o número de linhas que você quer exibir */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+    height: 140px; /* Altura fixa para os cards */
+}
+
+.modal-body h1, h2, h3{
+    color: #0f5588;
+}
+
