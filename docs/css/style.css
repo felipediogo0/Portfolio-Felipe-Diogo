@@ -67,3 +67,9 @@
     color: #0f5588;
 }
 
+.card-header{
+    min-height: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
