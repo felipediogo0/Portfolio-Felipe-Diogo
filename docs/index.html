@@ -139,7 +139,7 @@
     <div class="bg-light rounded-top-2 p-2">
         <h1 class="custom-text-info text-center" style="font-family: roboto; font-weight: bold;">Meu Portfólio</h1>
         <hr class="text-light mt-0">
-        <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel"><!--Carousel-->
+        <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel"><!--Carousel-->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="container d-flex justify-content-center"><!--Card-->
@@ -212,9 +212,9 @@
 <a href="./articles.html" class="text-decoration-none custom-text-secondary"><h6 class="text-center my-4">Aprenda e Cresça: Artigos Essenciais para Programadores</h6>
 </a>
 <h1 class="custom-text-info text-center my-3" style="font-family: roboto; font-weight: bold;">Últimos Artigos</h1>
-<a href="./articles.html" class="text-decoration-none custom-text-secondary ms-3 fw-bold small">Ir para a página de artigos</a>
-<div class="container text-center mt-1">
-    <div class="row row-cols-2 g-1">
+<div class="container mt-1">
+    <a href="./articles.html" class="text-decoration-none custom-text-secondary fw-bold small">Ir para a página de artigos</a>
+    <div class="row row-cols-2 row-cols-lg-3 g-1 text-center">
         <div class="card">
             <h6 class="card-header custom-text-info fw-bold mt-1">Estilização de componentes básicos com CSS</h6>
             <div class="container d-flex justify-content-center pt-1">
@@ -226,7 +226,8 @@
             </div>
             <div class="card-footer mb-1">
             <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-            <a href="./articles/article-css-1-components.html"><button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button></a>
+            <a href="./articles/article-css-1-components.html">
+            <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button></a>
             </div>    
     </div>
     <div class="card">
@@ -240,7 +241,7 @@
             </div>
             <div class="card-footer mb-1">
                 <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-                <button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button>
+                <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button>
             </div>   
     </div>
     <div class="card">
@@ -254,7 +255,7 @@
         </div>
         <div class="card-footer mb-1">
             <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-            <button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button>
+            <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button>
         </div>   
     </div>
     <div class="card">
@@ -268,7 +269,7 @@
             </div>
         <div class="card-footer mb-1">
             <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-            <button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button>
+            <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button>
         </div>   
     </div>
     <div class="card">
@@ -282,7 +283,7 @@
             </div>
         <div class="card-footer mb-1">
             <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-            <button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button>
+            <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button>
         </div>   
     </div>
     <div class="card">
@@ -296,7 +297,7 @@
             </div>
         <div class="card-footer mb-1">
             <button type="button" class="btn btn-sm custom-btn-outline-info" data-bs-toggle="modal" data-bs-target="#article1">Ler Artigo</button>
-            <button class="btn btn-sm custom-btn-outline-info mt-1">Abrir na página</button>
+            <button class="btn btn-sm custom-btn-outline-info mt-1 mt-lg-0">Abrir na página</button>
         </div>  
     </div>
 </div>        
@@ -311,14 +312,14 @@
 <h2 class="custom-text-info text-center my-4 px-5" style="font-family: roboto; font-weight: bold;">Benefícios de um site para o seu negócio!</h2>
 <div class="container"><!--Cards porque ter um site-->    
 <div class="row row-cols-1 d-flex justify-content-center align-items-center g-2">
-    <div class="card shadow" style="width: 20rem; height: 15rem;">
+    <div class="card shadow me-lg-2" style="width: 20rem; height: 15rem;">
         <div class="card-body d-flex flex-column justify-content-center align-items-center custom-text-info">
             <i class="bi bi-globe" style="font-size: 35px;"></i>
             <h5 class="card-title text-center fw-bold">Presença Online</h5>
             <p class="text-center custom-text-secondary small">Ter um site permite que sua empresa esteja disponível 24/7 para clientes em potencial ao redor do mundo. Isso aumenta a visibilidade e a credibilidade da sua marca.</p>
         </div>
     </div>
-    <div class="card shadow" style="width: 20rem; height: 15rem;">
+    <div class="card shadow me-lg-2" style="width: 20rem; height: 15rem;">
         <div class="card-body d-flex flex-column justify-content-center align-items-center custom-text-info">
             <i class="bi bi-cart" style="font-size: 35px;"></i>
             <h5 class="card-title text-center fw-bold">Aumento de Vendas</h5>
@@ -341,8 +342,11 @@
     <a href="./projects.html" class="text-decoration-none custom-text-secondary ms-3 fw-bold">
     <h6 class="custom-text-secondary text-center p-3">Projetos de desenvolvimento web para você treinar suas habilidades e aprender novos conceitos</h6>
     </a>
-    <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel"><!--Carousel Projetos-->
-<a href="./projects.html" class="text-decoration-none custom-text-secondary ms-3 fw-bold small">Ir para a página de projetos</a>
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-6 mx-lg-auto">  
+    <a href="./projects.html" class="text-decoration-none custom-text-secondary ms-3 fw-bold small">Ir para a página de projetos</a>  
+        <div id="carouselProjetos" class="carousel carousel-dark slide" data-bs-ride="carousel"><!--Carousel Projetos-->
         <div class="carousel-inner">
             <div class="carousel-item active">
             <div class="container text-center"><!--Cards do desenvolvedor-->
@@ -385,28 +389,28 @@
                         <small> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas maxime a corrupti perspiciatis, amet velit? Consequatur earum suscipit, a voluptatem culpa excepturi reprehenderit repudiandae dolorum minus tenetur adipisci illo nobis.O layout de uma página é a estrutura visual que define como o conteúdo será apresentado ao usuário. No HTML...
                         </small>
                     </div>
-                            <div class="container d-flex justify-content-center py-1">
-                                <img src="./img/Artigo em Desenvolvimento.png" class="card-img-bottom" style="width: 9rem; height: 7rem; object-fit:cover;;" alt="">
-                            </div>
-                                <div class="card-footer custom-bkg-color mb-1">
-                                    <button class="btn btn-sm custom-btn-info">Ver Projeto</button>
-                                </div>    
-                        </div>
-                        <div class="card">
-                            <h6 class="card-header custom-text-info fw-bold mt-2">Estrutura básica HTML, CSS e Javascript</h6> 
-                            <div class="card-body card-art custom-text-secondary mb-2">
-                                <small> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas maxime a corrupti perspiciatis, amet velit? Consequatur earum suscipit, a voluptatem culpa excepturi reprehenderit repudiandae dolorum minus tenetur adipisci illo nobis.O layout de uma página é a estrutura visual que define como o conteúdo será apresentado ao usuário. No HTML...
-                                </small>
-                            </div>
-                            <div class="container d-flex justify-content-center py-1">
-                                <img src="./img/Artigo em Desenvolvimento.png" class="card-img-bottom" style="width: 9rem; height: 7rem; object-fit:cover;;" alt="">
-                            </div>
-                                <div class="card-footer custom-bkg-color mb-1">
-                                    <button class="btn btn-sm custom-btn-info">Ver Projeto</button>
-                                </div>    
-                        </div>
-                    </div> 
+                    <div class="container d-flex justify-content-center py-1">
+                        <img src="./img/Artigo em Desenvolvimento.png" class="card-img-bottom" style="width: 9rem; height: 7rem; object-fit:cover;;" alt="">
+                    </div>
+                        <div class="card-footer custom-bkg-color mb-1">
+                            <button class="btn btn-sm custom-btn-info">Ver Projeto</button>
+                        </div>    
                 </div>
+                <div class="card">
+                    <h6 class="card-header custom-text-info fw-bold mt-2">Estrutura básica HTML, CSS e Javascript</h6> 
+                    <div class="card-body card-art custom-text-secondary mb-2">
+                        <small> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas maxime a corrupti perspiciatis, amet velit? Consequatur earum suscipit, a voluptatem culpa excepturi reprehenderit repudiandae dolorum minus tenetur adipisci illo nobis.O layout de uma página é a estrutura visual que define como o conteúdo será apresentado ao usuário. No HTML...
+                        </small>
+                    </div>
+                    <div class="container d-flex justify-content-center py-1">
+                        <img src="./img/Artigo em Desenvolvimento.png" class="card-img-bottom" style="width: 9rem; height: 7rem; object-fit:cover;;" alt="">
+                    </div>
+                        <div class="card-footer custom-bkg-color mb-1">
+                            <button class="btn btn-sm custom-btn-info">Ver Projeto</button>
+                        </div>    
+                </div>
+            </div> 
+        </div>
     </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
@@ -417,18 +421,21 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+    <div class="container d-flex justify-content-center">
+        <a href="./projects.html">
+        <button class="btn btn-sm custom-btn-outline-info mt-2" type="button">Ver todos os Projetos</button>    
+        </a>
+    </div>
 </div>
-<div class="container d-flex justify-content-center">
-    <a href="./projects.html">
-    <button class="btn btn-sm custom-btn-outline-info mt-2" type="button">Ver todos os Projetos</button>    
-    </a>
+</div>
+</div>
 </div>
 </section>
 <section><!--Perguntas Frequentes-->
 <h6 class="custom-text-secondary text-center p-4 mt-4">Contratar um desenvolvedor é uma grande decisão. Tire suas dúvidas antes de dar o próximo passo.</h6>
 <hr class="custom-text-info">
 <h2 class="custom-text-info text-center p-3">Dúvidas frequentes</h2>
-<div class="container">
+<div class="container px-lg-5">
 <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
         <h2 class="accordion-header">
@@ -483,16 +490,26 @@
     </div>
 </div>    
 </section>
-<hr class="custom-text-info">
+<hr class="custom-text-info mx-5 mt-4">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-6 mx-lg-auto">
 <h2 class="custom-text-info text-center p-3">Artigos em Destaque</h2>
-<div id="highlight-articles"></div>
+<div id="highlight-articles" class="mb-4"></div>
+</div>
+</div>
+</div>
+<hr class="custom-text-info mx-5">
 <section><!--Formulário de contato-->
-    <h6 class="custom-text-secondary text-center p-5">"Construir um site é como pintar uma tela em branco, onde cada linha de código é um traço de criatividade."</h2>
-        <div class="custom-bkg-gradient-gray">
-            <div class="container">
-                <div class="card d-lex justify-content-center p-4">        
-                    <h2 class="custom-text-info text-center">Entre em contato com o desenvolvedor</h2>  
+<h6 class="custom-text-secondary text-center p-5">"Construir um site é como pintar uma tela em branco, onde cada linha de código é um traço de criatividade."</h2>
+<div class="custom-bkg-gradient-gray">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-6 mx-lg-auto">
+<div class="card d-flex justify-content-center p-4">        
+    <h2 class="custom-text-info text-center">Entre em contato com o desenvolvedor</h2>  
     <hr class="custom-text-info">
+    <div>
     <form class="p-3" action="https://formspree.io/f/meojyyyv" method="POST">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Digite seu nome</label>
@@ -513,21 +530,23 @@
 </div>        
 </div>
 </div>
+</div>
+</div>
 </section>
 <section><!--Marketing Digital-->
 <div class="custom-bkg-color">
 <h6 class="text-light text-center p-5">Seu site está pronto, e agora?<br> Transforme sua presença online em sucesso com estas estratégias de marketing digital!</h6>
-<h2 class="text-light text-center mx-4">Dicas para Divulgação do Site na Web</h2>
-<div class="container"><!--Cards marketin digital-->    
-    <div class="row row-cols-1 d-flex justify-content-center align-items-center g-2">
-        <div class="card shadow" style="width: 20rem; height: 15rem;">
+<h2 class="text-light text-center mx-4">Dicas para Divulgação do seu Site na Web</h2>
+<div class="container mt-lg-4"><!--Cards marketin digital-->    
+    <div class="row row-cols-1 d-flex justify-content-center align-items-center g-2 mt-4">
+        <div class="card shadow me-lg-2" style="width: 20rem; height: 15rem;">
             <div class="card-body d-flex flex-column justify-content-center align-items-center custom-text-info">
                 <i class="bi bi-share" style="font-size: 35px;"></i>
                 <h5 class="card-title text-center fw-bold">Redes Sociais</h5>
                 <p class="text-center custom-text-secondary small"> Utilize plataformas como Facebook, Instagram, LinkedIn e Tik Tok para compartilhar conteúdo, promoções e novidades do seu site.</p>
             </div>
         </div>
-        <div class="card shadow" style="width: 20rem; height: 15rem;">
+        <div class="card shadow me-lg-2" style="width: 20rem; height: 15rem;">
             <div class="card-body d-flex flex-column justify-content-center align-items-center custom-text-info">
                 <i class="bi bi-google" style="font-size: 35px;"></i>
                 <h5 class="card-title text-center fw-bold">Google Meu Negócio</h5>
@@ -548,7 +567,7 @@
                 <p class="text-center custom-text-secondary small">Utilize plataformas como Google Ads ou Facebook Ads para criar campanhas pagas que direcionem tráfego para seu site.</p>
             </div>
         </div>
-<h6 class="text-light text-center p-5 mb-0">Pronto para transformar suas ideias em realidade? Vamos criar algo incrível juntos!<br> Entre em contato e dê o primeiro passo para o sucesso online.</h6>
+<h6 class="text-light text-center p-5 mb-0">Pronto para transformar suas ideias em realidade? Vamos criar algo incrível juntos!<br> Entre em contato e dê o primeiro passo para o seu sucesso online.</h6>
 </div>
 </section>
 <section><!--Mais sobre mim--> 
