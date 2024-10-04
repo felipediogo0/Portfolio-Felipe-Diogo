@@ -490,6 +490,7 @@
     </div>
 </div>    
 </section>
+<section><!-- Artigos em Destaques-->
 <hr class="custom-text-info mx-5 mt-4">
 <div class="container">
 <div class="row">
@@ -500,7 +501,8 @@
 </div>
 </div>
 <hr class="custom-text-info mx-5">
-<section><!--Formulário de contato-->
+</section>
+<section id="port-form"><!--Formulário de contato-->
 <h6 class="custom-text-secondary text-center p-5">"Construir um site é como pintar uma tela em branco, onde cada linha de código é um traço de criatividade."</h2>
 <div class="custom-bkg-gradient-gray">
 <div class="container">
@@ -510,7 +512,7 @@
     <h2 class="custom-text-info text-center">Entre em contato com o desenvolvedor</h2>  
     <hr class="custom-text-info">
     <div>
-    <form class="p-3" action="https://formspree.io/f/meojyyyv" method="POST">
+    <form class="p-3" action="https://formspree.io/f/meojyyyv" method="POST" id="contactForm">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Digite seu nome</label>
             <input type="text" name="nome" class="form-control" id="nome" aria-describedby="emailHelp">
@@ -525,6 +527,7 @@
             <textarea class="form-control" name="mensagem" id="mensagem" rows="3"></textarea>
         </div>
         <button type="submit" class="btn custom-btn-info">Enviar mensagem</button>
+        <p id="status"></p>
 <hr class="custom-text-info">
 </form>
 </div>        
@@ -581,26 +584,6 @@
     </div>
 </div>
 <hr class="custom-text-info mx-5 mb-5">
-<section><!--Mais sobre mim--> 
-<div class="custom-bkg-color">
-    <h6 class="text-light text-center p-5 mb-0">Pronto para transformar suas ideias em realidade? Vamos criar algo incrível juntos!<br> Entre em contato e dê o primeiro passo para o seu sucesso online.</h6>
-<div class="p-3">
-        <hr class="text-light m-0 p-2">
-<a href="./articles.html" class="text-center text-decoration-none text-light">
-    <h6 class="text-light small">Ver todos os artigos</h6>
-</a>
-<a href="./projects.html" class="text-center text-decoration-none text-light">
-    <h6 class="text-light small">Ver todos os projetos</h6>
-</a>
-<a href="./img/Currículo Financeiro - Felipe Diogo.pdf" class="text-center text-decoration-none text-light">
-    <h6 class="text-light small">Baixar currículo</h6>
-</a>
-<a href="https://api.whatsapp.com/send?phone=5512991586022" class="text-center text-decoration-none text-light">
-    <h6 class="text-light small">Entrar em contato</h6>
-</a>
-</div>
-</div>    
-</section>
 <section><!--Modais dos artigos-->
 <div class="modal fade" id="article1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog modal-dialog-scrollable">
@@ -766,10 +749,30 @@
     </div>
 </section>
 </main>
-<footer class="custom-bkg-color text-light">
+<footer class="custom-bkg-color text-light" id="port-footer">
+<section><!--Mais sobre mim--> 
+    <div class="custom-bkg-color">
+        <h6 class="text-light text-center p-5 mb-0">Pronto para transformar suas ideias em realidade? Vamos criar algo incrível juntos!<br> Entre em contato e dê o primeiro passo para o seu sucesso online.</h6>
+    <div class="p-3">
+            <hr class="text-light m-0 p-2">
+    <a href="./articles.html" class="text-center text-decoration-none text-light">
+        <h6 class="text-light small">Ver todos os artigos</h6>
+    </a>
+    <a href="./projects.html" class="text-center text-decoration-none text-light">
+        <h6 class="text-light small">Ver todos os projetos</h6>
+    </a>
+    <a href="./img/Currículo Financeiro - Felipe Diogo.pdf" class="text-center text-decoration-none text-light">
+        <h6 class="text-light small">Baixar currículo</h6>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=5512991586022" class="text-center text-decoration-none text-light">
+        <h6 class="text-light small">Entrar em contato</h6>
+    </a>
+    </div>
+    </div>    
+</section>
 <hr class="text-light m-0 p-2"> 
 <h6 class="text-center">Dev.FelipeDiogo&reg;</h6>
-<div class="container mb-2">
+<div class="container pb-2">
 <div class="d-flex justify-content-center">
 <h6 class="me-4"><a href="#" class="text-light text-decoration-none"><i class="bi bi-mailbox2-flag me-1"></i>felipediogo@live.com</a></h6>
 <h6><a href="https://api.whatsapp.com/send?phone=5512991586022" class="text-light text-decoration-none">
