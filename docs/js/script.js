@@ -19,6 +19,9 @@ $(function(){
     $("#form-port").load("./index.html #port-form")
 })
 
+$(function(){
+    $("#components-article").load("./articles/article-css-1-components.html #article-components")
+})
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
