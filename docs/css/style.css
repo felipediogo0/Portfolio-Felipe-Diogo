@@ -81,7 +81,7 @@
 }
 
 @media print{
-    nav,main,footer, .no-print{
+    .noPrint{
         display: none;
     }
 } 
