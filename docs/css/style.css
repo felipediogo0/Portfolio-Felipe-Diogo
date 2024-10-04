@@ -79,3 +79,10 @@
     align-items: center;
     min-height: 12rem;
 }
+
+@media print{
+    nav,main,footer, .no-print{
+        display: none;
+    }
+} 
+
