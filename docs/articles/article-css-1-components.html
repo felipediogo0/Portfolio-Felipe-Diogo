@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css" class="css">
     <base href="https://felipediogo.site/">
+    <!--<base href="http://127.0.0.1:3000/docs/">-->
     <title>Meu Portfólio</title>
 </head>
 <body style="min-width:372px;" class="bg-light">
 <head>    
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html" class="text-decoration-none custom-text-info small">Página inicial</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="../articles.html" class="text-decoration-none custom-text-info small">Artigos</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="../articles-css.html" class="text-decoration-none custom-text-info small">Artigos CSS</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-decoration-none custom-text-info small">Componentes</a></li>  
+            <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none custom-text-info small">Página inicial</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="articles.html" class="text-decoration-none custom-text-info small">Artigos</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="articles-css.html" class="text-decoration-none custom-text-info small">Artigos CSS</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="articles/article-css-1-components.html" class="text-decoration-none custom-text-info small">Componentes</a></li>  
         </ol>
     </nav> 
 <h1 class="custom-text-info text-center m-3">MENU DE NAVEGAÇÃO, CARD E BOTÃO COM HTML E CSS</h1>       
@@ -25,8 +26,8 @@
 <main>
 <h6 class="text-center custom-text-secondary my-3">CSS: Estilo, Consistência e Eficiência!</h6>
 <section id="article-components"><!--Artigo da página-->
-<div class="container">
-<img src="img/articles-img/components-1.png" style="width: 100%;" alt="">
+<div class="container d-flex justify-content-center">
+<img src="img/articles-img/components.png" alt="">
 </div>
 <hr class="custom-text-info">
 <div class="container">
@@ -64,7 +65,10 @@
 .custom-button:hover {
     background-color: #45a049; /* Cor de fundo ao passar o mouse */
 }</code></pre>
-
+<div class="container d-flex justify-content-center align-items-center mb-1">
+    <h6 class="custom-text-info me-5">Resultado:</h6>
+    <img src="img/articles-img/button.png" alt="">
+</div>
     <h3>Explicação:</h3>
     <p><code>background-color</code> define a cor de fundo do botão.</p>
     <p><code>padding</code> e <code>margin</code> ajustam o espaçamento interno e externo.</p>
@@ -120,7 +124,10 @@
     <p><code>box-shadow</code> adiciona uma sombra ao redor do card, criando um efeito de profundidade.</p>
     <p><code>overflow: hidden</code> impede que elementos internos do card ultrapassem suas bordas.</p>
     <p><code>padding</code> nos elementos internos cria espaço ao redor do texto.</p>
-
+    <div class="container d-flex justify-content-center align-items-center mb-1">
+        <h6 class="custom-text-info me-5">Resultado:</h6>
+        <img src="img/articles-img/card.png" alt="">
+    </div>
     <h2>3. Menu de Navegação Simples</h2>
     <p>
         Um menu de navegação é essencial para guiar os usuários pelo site. Vamos criar um menu horizontal simples com links estilizados.
@@ -164,7 +171,10 @@
 .navbar-link:hover {
     background-color: #575757; /* Cor de fundo ao passar o mouse */
 }</code></pre>
-
+<div class="container d-flex justify-content-center align-items-center mb-1">
+    <h6 class="custom-text-info me-5">Resultado:</h6>
+    <img src="img/articles-img/nav.png" alt="">
+</div>
     <h3>Explicação:</h3>
     <p><code>display: flex</code> no <code>.navbar-list</code> organiza os itens em linha.</p>
     <p><code>border-radius</code> no <code>.navbar-link</code> arredonda os cantos dos links.</p>
