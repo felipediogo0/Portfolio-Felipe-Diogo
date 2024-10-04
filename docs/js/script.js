@@ -23,6 +23,10 @@ $(function(){
     $("#components-article").load("./articles/article-css-1-components.html #article-components")
 })
 
+$(function(){
+    $("#10terms-article").load("./articles/article-tech-1-10terms.html #article-10terms")
+})
+
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
   
