@@ -64,7 +64,28 @@
 }</code></pre>
 <div class="container d-flex justify-content-center align-items-center mb-1">
     <h6 class="custom-text-info me-5">Resultado:</h6>
-    <img src="img/articles-img/button.png" alt="">
+<div>
+<button class="button-article">Clique Aqui</button>
+<style>
+.button-article {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Alinhamento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px 2px; /* Espaçamento externo */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 8px; /* Arredonda os cantos */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+.button-article:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+</style>
+</div>
 </div>
     <h3>Explicação:</h3>
     <p><code>background-color</code> define a cor de fundo do botão.</p>
@@ -117,14 +138,50 @@
     color: #555; /* Cor do texto */
 }</code></pre>
 
+<div class="container d-flex justify-content-center align-items-center mb-1">
+    <h6 class="custom-text-info me-5">Resultado:</h6>
+</div>
+<div class="card-article-1 mx-auto">
+    <img src="https://via.placeholder.com/150" alt="Imagem do Card" class="card-img">
+    <div class="card-article-1-content">
+        <h2 class="card-article-1-title">Título do Card</h2>
+        <p class="card-article-1-description">Esta é uma breve descrição do conteúdo do card.</p>
+    </div>
+</div>
+<style>
+    .card-article-1 {
+    background-color: #fff; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 300px; /* Largura do card */
+    margin: 20px; /* Espaçamento */
+    overflow: hidden; /* Esconde conteúdo que ultrapassa */
+}
+
+.card-article-1-img {
+    width: 100%; /* Largura da imagem */
+    height: auto; /* Altura automática */
+}
+
+.card-article-1-content {
+    padding: 16px; /* Espaçamento interno */
+}
+
+.card-article-1-title {
+    font-size: 20px; /* Tamanho do título */
+    margin: 0 0 10px; /* Espaçamento */
+}
+
+.card-article-1-description {
+    font-size: 14px; /* Tamanho da descrição */
+    color: #555; /* Cor do texto */
+}
+</style>
     <h3>Explicação:</h3>
     <p><code>box-shadow</code> adiciona uma sombra ao redor do card, criando um efeito de profundidade.</p>
     <p><code>overflow: hidden</code> impede que elementos internos do card ultrapassem suas bordas.</p>
     <p><code>padding</code> nos elementos internos cria espaço ao redor do texto.</p>
-    <div class="container d-flex justify-content-center align-items-center mb-1">
-        <h6 class="custom-text-info me-5">Resultado:</h6>
-        <img src="img/articles-img/card.png" alt="">
-    </div>
     <h2>3. Menu de Navegação Simples</h2>
     <p>
         Um menu de navegação é essencial para guiar os usuários pelo site. Vamos criar um menu horizontal simples com links estilizados.
@@ -170,8 +227,44 @@
 }</code></pre>
 <div class="container d-flex justify-content-center align-items-center mb-1">
     <h6 class="custom-text-info me-5">Resultado:</h6>
-    <img src="img/articles-img/nav.png" alt="">
 </div>
+    <nav class="navbar mb-2">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Sobre</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Serviços</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Contato</a></li>
+        </ul>
+    </nav>
+<style>
+.navbar {
+    background-color: #333; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+}
+
+.navbar-list {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamentos */
+    display: flex; /* Layout em linha */
+}
+
+.navbar-item {
+    margin-right: 20px; /* Espaçamento entre itens */
+}
+
+.navbar-link {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 8px 16px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.navbar-link:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+}    
+</style>    
     <h3>Explicação:</h3>
     <p><code>display: flex</code> no <code>.navbar-list</code> organiza os itens em linha.</p>
     <p><code>border-radius</code> no <code>.navbar-link</code> arredonda os cantos dos links.</p>
