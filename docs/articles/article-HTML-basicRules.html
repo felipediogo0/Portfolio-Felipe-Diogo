@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css" class="css">
+    <base href="https://felipediogo.site/">
+    <!--<base href="http://127.0.0.1:3000/docs/">-->
+    <title>Meu Portfólio</title>
+</head>
+<body style="min-width:372px;" class="bg-light">
+<nav class="noPrint">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none custom-text-info small">Página inicial</a></li>
+        <li class="breadcrumb-item" aria-current="page"><a href="articles.html" class="text-decoration-none custom-text-info small">Artigos</a></li>
+        <li class="breadcrumb-item" aria-current="page"><a href="articles-html.html" class="text-decoration-none custom-text-info small">Artigos HTML</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="article-HTML-basicRules.html" class="text-decoration-none custom-text-info small">Regras básicas</a></li>
+    </ol>
+</nav> 
+<article class="ms-1" id="basic-rules">
+<div class="d-flex justify-content-center mb-3">
+    <img src="img/articles-img/basic-rules.png" alt="">
+</div>    
+<h1 class="mb-3">Introdução aos Layouts HTML</h1>
+<p>O layout de uma página web é a estrutura visual que define como o conteúdo será apresentado ao usuário. No HTML, a construção dessa estrutura envolve a utilização de diferentes tags e estilos, que juntos formam o design final. Vamos explorar algumas práticas essenciais para a criação de layouts modernos e eficientes.</p>
+<h2 class="mb-3">Uso de Tags Semânticas</h2>
+<p>As tags semânticas do HTML, como <pre><code>&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt; e &lt;footer&gt;</code></pre> ajudam a descrever claramente a estrutura do conteúdo. Elas melhoram a acessibilidade e o SEO (Search Engine Optimization), pois fornecem aos mecanismos de busca uma melhor compreensão do conteúdo da página.
+<br><h6 class="mt-2">Exemplo:
+html</h6>
+<pre><code>&lt;header&gt;
+    &lt;h1&gt;Bem-vindo ao meu site&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Início&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;Sobre&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+  &lt;section&gt;
+    &lt;article&gt;
+      &lt;h2&gt;Título do Artigo&lt;/h2&gt;
+      &lt;p&gt;Texto do artigo aqui...&lt;/p&gt;
+    &lt;/article&gt;
+  &lt;/section&gt;
+  &lt;footer&gt;
+    &lt;p&gt;Copyright © 2024&lt;/p&gt;
+  &lt;/footer&gt;</code></pre>
+<h6>Resultado:
+</h6>
+<hr class="custom-text-info mx-3">
+<header>
+  <h1>Bem-vindo ao meu site</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="#home">Início</a></li>
+    <li><a href="#about">Sobre</a></li>
+  </ul>
+</nav>
+<section>
+  <article>
+    <h2>Título do Artigo</h2>
+    <p>Texto do artigo aqui...</p>
+  </article>
+</section>
+<footer>
+  <p>Copyright © 2024</p>
+</footer></p>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Propriedades Flex</h2>
+<p>O Flexbox é uma ferramenta poderosa para criar layouts flexíveis que se ajustam de forma dinâmica aos diferentes tamanhos de tela. Com ele, é possível alinhar elementos de forma eficiente no eixo horizontal e vertical.
+<h6>Exemplo:
+CSS</h6>
+.container {<br>
+  display: flex;<br>
+  justify-content: space-between;<br>
+  align-items: center;<br>
+}
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<div class="container-basicrules-css">
+    <button class="btn btn-info custom-btn-info">Botão</button>
+    <button class="btn btn-info custom-btn-info">Botão</button>
+    <button class="btn btn-info custom-btn-info">Botão</button>
+</div>
+</div>
+<style>
+    .container-basicrules-css{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;  
+    }
+</style>
+</p>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Manipulação de CSS com JavaScript</h2>
+<p>O JavaScript permite alterar os estilos CSS dinamicamente. Isso é útil para criar interações mais ricas, como a mudança de cores ou tamanhos com base em ações do usuário.
+<br><h6 class="mt-2">Exemplo: javascript</h6>
+
+document.getElementById("meuBotao").onclick = function() {<br>
+  document.getElementById("meuDiv").style.backgroundColor = "green";
+<br>};</p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<div class="custom-bkg-color mx-auto" id="myDiv-html-article" style="width: 100px; height: 100px;"></div>
+<div class="d-flex justify-content-center my-2"><button class="btn custom-btn-info" id="my-button-html-article">Clique aqui</button></div>
+<script>
+    document.getElementById("my-button-html-article").onclick = function() {
+    document.getElementById("myDiv-html-article").style.backgroundColor = "green";}
+</script>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Formas de Adicionar CSS</h2>
+<p>Existem três principais maneiras de adicionar CSS a uma página HTML, cada uma com suas vantagens e desvantagens. </p>
+<h2>Inline com a Propriedade Style</h2>
+<p>O CSS inline é utilizado diretamente no elemento HTML. Embora útil para pequenas mudanças, não é recomendado para grandes projetos, pois dificulta a manutenção.
+<br><h6 class="mt-2">Exemplo: HTML</h6>
+<pre><code>&lt;p style="color: red;">Este texto está vermelho&lt;/p&gt;.</pre></code></p>
+<br><h6>Resultado:</h6>
+<p style="color: red;">Este texto está vermelho</p>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Dentro da Tag Style</h2>
+<p>Outra opção é incluir o CSS dentro da tag <pre><code>&lt;style&gt;</pre></code> no próprio arquivo HTML. Essa abordagem é mais organizada do que o estilo inline, mas ainda pode dificultar a escalabilidade.
+<br><h6 class="mt-2">Exemplo: HTML</h6>
+<pre><code>&lt;style&gt;
+  p {
+    color: red;
+  }
+  &lt;/style&gt;</pre></code></p>
+<h2 class="mb-3">Arquivo Externo com a Tag Link</h2>
+<p>A forma mais organizada e recomendada é separar o CSS em um arquivo externo. Isso facilita a manutenção e permite que o estilo seja reutilizado em várias páginas. 
+<br><h6 class="mt-2">Exemplo:</h6>  
+<pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</pre></code>
+<h2 class="mb-3">Criação de Layouts Responsivos</h2>
+<p>Um layout responsivo é aquele que se adapta a diferentes tamanhos de tela, oferecendo uma boa experiência de usuário em dispositivos móveis e desktops. </p>
+<h2 class="mb-3">Ajuste de Tamanhos Iniciais</h2>
+<p>A primeira etapa é definir tamanhos relativos e flexíveis, como porcentagens, em ou rem ao invés de tamanhos fixos em pixels.
+<br><h6 class="mt-2">Exemplo: CSS</h6>
+.container {<br>
+  width: 100%;<br>
+  padding: 1rem;<br>
+}</p>
+<a href="articles/article-CSS-units-measurement.html" class="text-decoration-none"><h6 class="custom-text-info">Verifique aqui o artigo sobre unidades de medidas</h6></a>
+<h2 class="my-3">Uso de Flex-grow, Flex-shrink e Flex-basis</h2>
+<p>Essas propriedades são fundamentais para controlar o comportamento de itens em um container Flexbox. flex-grow define o quanto o item pode crescer, flex-shrink controla a contração e flex-basis define o tamanho inicial.
+<br><h6 class="mt-2">Exemplo: CSS</h6>
+<pre><code>.item {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 150px;
+}</pre></code></p>
+<h6 class="mt-2">Resultado:</h6>
+<div class="container d-flex justify-content-center align-items-center bg-light">
+<div class="item-basicRules custom-bkg-color" style="padding: 1rem;"><h6 class="text-light text-center">Flex Grow 5</h6>
+</div>
+<div class="custom-bkg-gradient-gray item-basicRules2" style="padding: 1rem;"><h6 class="text-light text-center">Flex Grow 1</h6>
+</div>
+</div>
+<style>
+    .item-basicRules{
+        flex-grow: 5;
+        flex-shrink: 1;
+        flex-basis: 150px;
+    }
+
+    .item-basicRules2{
+        flex-grow: 1;
+        flex-shrink: 5;
+        flex-basis: 150px;
+    }
+</style>
+<h6 class="my-3 text-danger">*Caso esteja em um dispositivo móvel, vire a tela para ver o resultado</h6>
+<h2 class="mb-3">Aplicação de Regras de Mídia</h2>
+<p>As media queries permitem ajustar o design de acordo com o tamanho da tela, garantindo que o layout se mantenha legível e organizado em dispositivos de diferentes resoluções.
+<br><h6>Exemplo: CSS</h6>
+@media (max-width: 768px) {<br>
+  .container {
+    <br>flex-direction: column;
+  <br>}<br>
+}</p>
+<a href="articles/article-html-mediaQueries.html" class="text-decoration-none"><h6 class="custom-text-info">Verifique aqui o artigo completo sobre media queries</h6></a>
+<h2 class="mb-3">Adição de Menu de Navegação</h2>
+<p>Os menus de navegação são essenciais para guiar o usuário pela página. Vamos abordar como criar menus dinâmicos e interativos. </p>
+<h2 class="mb-3">Criação de Botões de Menu</h2>
+<p>Podemos criar menus simples utilizando listas e estilizando-os com CSS.
+<h6>Exemplo: HTML</h6>
+<pre><code>&lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Início&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#services&quot;&gt;Serviços&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contato&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+<nav>
+  <ul>
+    <li><a href="#home">Início</a></li>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#contact">Contato</a></li>
+  </ul>
+</nav></p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Manipulação de Visibilidade com JavaScript</h2>
+<p>Para criar menus interativos, podemos usar JavaScript para alternar a visibilidade dos itens, especialmente em menus suspensos ou navegadores móveis.
+<h6>Exemplo: JAVASCRIPT</h6>
+
+document.getElementById("menuButton").onclick = function() {<br>
+  var menu = document.getElementById("menu");<br>
+  menu.style.display = (menu.style.display === "none") ? "block" : "none";<br>
+};</p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<button class="btn custom-btn-outline-info" id="menuButton-basicRules">Clique aqui</button>
+<nav id="menu-basicRules">
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+</nav>
+<script>
+document.getElementById("menuButton-basicRules").onclick = function() {
+    var menu = document.getElementById("menu-basicRules");
+    menu.style.display = (menu.style.display === "none") ? "block" : "none";
+  };
+</script>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Transições Suaves com CSS</h2>
+<p>Adicionando transições, podemos suavizar a abertura e fechamento dos menus, melhorando a experiência do usuário.
+<h6>Exemplo: CSS</h6>
+.menu {<br>
+  transition: all 0.3s ease-in-out;<br>
+}</p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<button class="btn custom-btn-outline-info" id="menuButton-basicRules2">Clique aqui</button>
+<nav id="menu-basicRules2">
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+</nav>
+<style>
+    #menu-basicRules2{
+        transition: all 1s ease-in-out;
+    }
+</style>
+<script>
+document.getElementById("menuButton-basicRules2").onclick = function() {
+    var menu2 = document.getElementById("menu-basicRules2");
+    menu2.style.display = (menu2.style.display === "none") ? "block" : "none";
+  };
+</script>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Ajustes Finais e Otimizações</h2>
+<h2 class="mb-3">Uso de Gradientes</h2>
+<p>Gradientes adicionam um toque visual interessante ao fundo ou aos botões, melhorando o design da página.
+<br><h6>Exemplo: CSS</h6>
+.button {<br>
+  background: linear-gradient(to right, #ff7e5f, #feb47b);<br>
+}</p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<button class="btn button-basicRules3">Botão Gradiente</button>
+<style>
+    .button-basicRules3{
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+    }
+</style>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Propriedade Overflow para Rolagem</h2>
+<p>Ao criar conteúdos que podem exceder o tamanho da tela, a propriedade overflow permite adicionar rolagem ou ocultar partes do conteúdo.
+<br><h6>Exemplo: CSS</h6>
+
+.container {<br>
+  width: 300px;<br>
+  height: 150px;<br>  
+  overflow: auto;<br>
+}</p>
+<h6 class="mt-2">Resultado:</h6>
+<hr class="custom-text-info mx-3">
+<div class="containerBasicRules2 mx-auto">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet malesuada urna. Sed scelerisque leo a lacus fermentum, eget luctus enim pellentesque. Nullam vehicula ligula a urna efficitur, non dignissim orci vehicula. Fusce convallis, metus ut venenatis ultricies, quam ex pellentesque justo, vitae auctor dolor felis ac odio. Integer in pulvinar nunc. Nulla facilisi.</p>
+</div>
+<style>
+    .containerBasicRules2 {
+        width: 300px;
+        height: 150px;
+        border: 1px solid #000;
+        overflow: auto;
+    }
+</style>
+<hr class="custom-text-info mx-3">
+<h2 class="mb-3">Organização do Código em Arquivos Separados</h2>
+<p>Para facilitar a manutenção, o código HTML, CSS e JavaScript deve ser dividido em arquivos separados:
+<li>HTML: Estrutura do conteúdo.<br>
+<li>CSS: Estilos visuais.<br>
+<li>JavaScript: Comportamento e interatividade.<br>
+
+<h2 class="my-3">Conclusão</h2>
+<p>Seguindo essas boas práticas de layout, você pode criar páginas web eficientes, organizadas e responsivas. O uso de Flexbox, media queries e a separação de arquivos garantem que seu projeto seja escalável e de fácil manutenção. </p>
+</article>
+<hr class="custom-text-info mb-0">
+<div class="container d-flex justify-content-center p-2 noPrint">
+    <a href="/docs/articles-css.html">
+        <button class="btn custom-btn-outline-info btn-sm me-2"><i class="bi bi-arrow-left-square me-1"></i>Ver mais artigos</button>
+    </a>
+    <button class="btn custom-btn-outline-info btn-sm" onclick="window.print()"><i class="bi bi-download me-1"></i>Baixar Artigo</button>
+</div>
+<footer class="noPrint">
+    <div id="footer-port"></div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css" class="css">
+    <base href="https://felipediogo.site/">
+    <!--<base href="http://127.0.0.1:3000/docs/">-->
+    <title>Meu Portfólio</title>
+</head>
+<body style="min-width:372px;" class="bg-light">
+<nav class="noPrint">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none custom-text-info small">Página inicial</a></li>
+        <li class="breadcrumb-item" aria-current="page"><a href="articles.html" class="text-decoration-none custom-text-info small">Artigos</a></li>
+        <li class="breadcrumb-item" aria-current="page"><a href="articles-html.html" class="text-decoration-none custom-text-info small">Artigos HTML</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="article-HTML-basicRules.html" class="text-decoration-none custom-text-info small">Regras básicas</a></li>
+    </ol>
+</nav> 
+<article class="ms-2" id="units-measurement">
+    <div class="d-flex justify-content-center mb-3">
+        <img src="img/articles-img/units-measurement.png" alt="">
+    </div>
+    <h1>Unidades de Medida em Desenvolvimento Web</h1>
+    <p>Quando se trata de desenvolvimento web, as unidades de medida desempenham um papel crucial na criação de layouts responsivos e na definição de estilos. Neste artigo, exploraremos as principais unidades de medida utilizadas e como elas podem afetar o design e a funcionalidade de um site. </p>
+    <h2>1. Unidades Absolutas</h2>
+    <p>As unidades absolutas têm um valor fixo e não se ajustam de acordo com o ambiente do usuário. As principais incluem:
+    <li>	Pixels (px): A unidade mais comum em desenvolvimento web, um pixel representa um ponto na tela. É ideal para elementos que precisam ter dimensões exatas.
+    <li>	Pontos (pt): Usado principalmente em impressão, um ponto é 1/72 de uma polegada. Não é muito utilizado em web design, mas pode ser relevante em contextos de impressão.
+        <li>	Centímetros (cm) e Milímetros (mm): Embora raramente usados na web, podem ser úteis em contextos específicos, como impressão. </p>
+    <h2>2. Unidades Relativas</h2>
+    <p>As unidades relativas são baseadas em outras medidas, tornando-as mais flexíveis e responsivas:
+        <li>	Em (em): Uma unidade que é relativa ao tamanho da fonte do elemento pai. Ideal para definir tamanhos que precisam ser escaláveis.
+            <li>	Rem (rem): Similar ao em, mas é relativa ao tamanho da fonte do elemento raiz (geralmente o <html>). Isso facilita o controle do layout em todo o documento.
+                <li>	Porcentagem (%): Usada para definir tamanhos em relação ao elemento pai. Muito útil para criar layouts fluidos. </p>
+    <h2>3. Unidades de Visualização</h2>
+    <p>As unidades de visualização são baseadas no tamanho da janela de visualização:
+        <li>	vw (viewport width): 1vw é igual a 1% da largura da janela de visualização.
+            <li>	vh (viewport height): 1vh é igual a 1% da altura da janela de visualização.
+                <li>	vmin e vmax: vmin é 1% da menor dimensão da janela (largura ou altura), e vmax é 1% da maior. </p>
+    <h2>4. Considerações Finais</h2>
+    <p>Escolher as unidades de medida certas é fundamental para garantir que seu site seja responsivo e acessível. Uma combinação de unidades absolutas e relativas geralmente produz os melhores resultados, permitindo que seu design se adapte a diferentes dispositivos e tamanhos de tela. </p>
+    <h2>Conclusão</h2>
+    <p>Compreender as unidades de medida é essencial para qualquer desenvolvedor web. Ao usar a combinação adequada, você pode criar layouts que não apenas pareçam bons, mas também funcionem bem em uma variedade de dispositivos. Experimente diferentes unidades e veja como elas afetam seu design! </p>
+    
+    
+
+</article>
+<hr class="custom-text-info mb-0">
+<div class="container d-flex justify-content-center p-2 noPrint">
+    <a href="/docs/articles-css.html">
+        <button class="btn custom-btn-outline-info btn-sm me-2"><i class="bi bi-arrow-left-square me-1"></i>Ver mais artigos</button>
+    </a>
+    <button class="btn custom-btn-outline-info btn-sm" onclick="window.print()"><i class="bi bi-download me-1"></i>Baixar Artigo</button>
+</div>
+<footer class="noPrint">
+    <div id="footer-port"></div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

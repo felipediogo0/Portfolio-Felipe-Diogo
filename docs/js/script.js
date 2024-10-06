@@ -27,6 +27,14 @@ $(function(){
     $("#10terms-article").load("./articles/article-tech-1-10terms.html #article-10terms")
 })
 
+$(function(){
+  $("#measurement-units").load("./articles/article-CSS-units-measurement.html #units-measurement")
+})
+
+$(function(){
+  $("#rules-basic").load("./articles/article-html-basicRules.html #basic-rules")
+})
+
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
   
