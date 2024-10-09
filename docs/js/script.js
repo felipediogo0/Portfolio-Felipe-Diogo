@@ -32,7 +32,7 @@ $(function(){
 })
 
 $(function(){
-  $("#rules-basic").load("./articles/article-html-basicRules.html #basic-rules")
+  $("#rules-basic").load("./articles/article-HTML-basicRules.html #basic-rules")
 })
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
